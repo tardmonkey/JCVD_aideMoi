@@ -1,0 +1,22 @@
+export const citations = [
+    "Un biscuit, ça n'a pas de spirit, c'est juste un biscuit. Mais avant c'était du lait, des oeufs. Et dans les oeufs, il y a la vie potentielle. ",
+    "Je crois au moment. S'il n'y a pas le moment, à ce moment-là, il faut arriver à ce moment-là, au moment qu'on veut. ",
+    "Un bon truc pour paraître dix ans plus jeune, c'est de te vieillir de dix ans quand tu dis ton âge. ",
+    "Une vache ça te bouffe trois hectares, moi avec trois hectares, je te fais deux mille kilos de riz. Avec trois hectares, je nourris Avignon, tu vois.",
+    "Je suis fasciné par l'air. Si on enlevait l'air du ciel, tous les oiseaux tomberaient par terre et les avions aussi. En même temps l'air tu peux pas le toucher, ça existe et ça existe pas",
+    "Je crois en Dieu, un plus un égale un. Y'a Jean-Claude, y'a Dieu, dans le même corps. Si on peut s'unifier, on devient ce qu'on appelle les miracles, et chaque personne a le seigneur en soi. We're all one. Je crois VRAIMENT en Seigneur.",
+    "Ma devise, c'est toujours: se recréer. Il faut se recréer. Pour recréer, a better you. Et ça, c'est très dur ! Et c'est très facile en même temps. ",
+    "Une noisette, j'la casse entre mes fesses tu vois.",
+    "Il ne faut pas écouter les bruits du monde, mais le silence de l'âme.",
+    "Quand j'étais jeune, j'étais très con. Je suis resté très jeune.",
+    "Si tu travailles avec un marteau-piqueur pendant un tremblement de terre, désynchronise-toi, sinon tu travailles pour rien.",
+    " La drogue, c'est comme quand tu close your eyes et que tu traverses la rue. ",
+    " Les cacahuètes c'est doux et salé, fort et tendre, comme une femme. Les cacahuètes c'est le mouvement perpétuel à la portée de l'homme. ",
+    "Le grand combat, c'est contre soi-même. La victoire, c'est d'avoir compris ce que l'on veut... et d'y croire. ",
+    "Le talent, ça se travaille, mais ça ne se perd pas. ",
+    " Si tu parles à ton eau de Javel pendant que tu fais la vaisselle, elle est moins concentrée. ",
+    " Nous les humains, on a inventé le temps. Mais le temps n'existe pas, car il y a une matter, une puissance de compression, qui n'est pas la même pour chaque species on earth. ",
+    " Les plantes par exemple, qui n'ont pas de mains, et pas d'oreilles,elles sentent les choses, les vibrations, elles sont plus aware que les autres species. ",
+    " Si tu téléphones à une voyante et qu'elle ne décroche pas avant que ça sonne, raccroche. ",
+    " Selon les statistiques, il y a une personne sur cinq qui est déséquilibrée. S'il y a 4 personnes autour de toi et qu'elles te semblent normales, c'est pas bon. "
+]
