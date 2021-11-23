@@ -28,10 +28,9 @@ h1{
     animation-duration:2s;
     animation-name:intro;
     animation-fill-mode: forwards;
-    width:50vw;
     margin:auto;
     animation-delay: 5s;
-    padding-bottom:10rem;
+    padding-bottom:5rem;
 }
 
 article{
@@ -47,10 +46,12 @@ article{
     p{
         display:flex;
         flex-direction: column;
-        padding-top:2rem;
         font-size: 2rem;
         text-align: center;
         font-family: 'Amatic SC', cursive;
+        p{
+            margin:0;
+        }
         span{
             font-size: 1.2rem;
         }
@@ -136,7 +137,7 @@ article{
     }
    
     100%{
-        font-size: 4rem;
+        font-size: 10rem;
        margin-top:0rem;
     }
 }
