@@ -1,8 +1,11 @@
 $color1:#9B2335;
-html{
+
+html, body {
+    overflow: hidden;
     margin:0;
     padding:0;
-}
+  }
+
 h1{
     display:flex;
     justify-content: center;
