@@ -1,0 +1,148 @@
+$color1:#9B2335;
+
+*, *::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    color:white;
+    font-family: Impact;
+    overflow: hidden;
+}
+
+main{
+    height:100vh;
+    margin:auto;
+    margin-top:0;
+    background-color: #2481d3;
+    padding:1rem;
+    
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+    font-size: 0rem;
+    -webkit-text-stroke: 1px black;
+    animation-duration:2s;
+    animation-name:intro;
+    animation-fill-mode: forwards;
+    width:50vw;
+    margin:auto;
+    animation-delay: 5s;
+    padding-bottom:10rem;
+}
+
+article{
+    padding:550rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    animation: weshLeBoutton 1s ease;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+    p{
+        display:flex;
+        flex-direction: column;
+        padding-top:2rem;
+        width:20%;
+        font-size: 2rem;
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        span{
+            font-size: 1.2rem;
+        }
+    }
+    button{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.5rem;;
+        width:20%;
+        margin:1rem;
+        padding:1rem;
+        background-color:white;
+        border-radius:15px;
+        z-index:3;
+    }
+    button:hover{
+        background-color:rgb(223, 217, 217);
+        transform:scale(1.1);
+    }
+}
+.loader{
+    overflow: hidden;
+}
+.loader--top{
+    position:absolute;
+    top:0;
+    width:100vw;
+    height:50vh;
+    z-index:1;
+    background-color:$color1;
+    animation:loader--top 500ms ease;animation-delay:3800ms;animation-fill-mode: forwards;
+}
+.loader--bottom{
+    position:absolute;
+    bottom:0;
+    width:100vw;
+    height:50vh;
+    z-index:1;
+    background-color:$color1;
+    animation:loader--bottom 500ms ease;animation-delay:3800ms;animation-fill-mode: forwards;
+}
+.spinner{
+    display:flex;
+    flex-direction: row;
+    position:absolute;
+    top:33vh; 
+    right:33vw;
+    z-index:2;
+    transform: scale(0.5);
+    div:nth-child(1){animation:loader--item 1s ease;animation-fill-mode: both;animation-iteration-count: 3;}
+    div:nth-child(2){animation:loader--item 1s ease;animation-fill-mode: both;animation-iteration-count: 3;}
+    div:nth-child(3){animation:loader--item 1s ease;;animation-fill-mode: both;animation-iteration-count: 3;}
+    @for $i from 1 through 3 {
+        div:nth-child(#{$i}n) {
+            animation-delay: #{$i * 0.2}s;
+        }
+    }
+}
+
+@keyframes loader--item {
+    0%{transform:scale(0.5);opacity:30%;}
+    20%{transform:scale(0.7);opacity:60%;}
+    40%{transform:scale(0.5);opacity:70%;}
+    60%{transform:scale(0.7);opacity:80%;}
+    80%{transform:scale(0.5);opacity:90%;}
+    100%{transform:scale(0.7);opacity:0;display:none;}
+    
+}
+
+@keyframes loader--top {
+    100%{ transform: translate3d(0, -100%,0);display:none;}
+}
+@keyframes loader--bottom {
+    100%{ transform: translate3d(0, 100%,0);display:none;}
+}
+
+
+@keyframes intro {
+    0%{
+        margin-top:1rem;
+    }
+    50%{
+        margin-top:10rem;
+    }
+   
+    100%{
+        font-size: 4rem;
+       margin-top:0rem;
+    }
+}
+
+@keyframes weshLeBoutton{
+    0%{}
+    100%{padding:0rem;}
+}
