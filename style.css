@@ -5,7 +5,7 @@
 body {
   margin: 0px;
   color: white;
-  font-family: Impact;
+  font-family: "Amatic SC", cursive;
   overflow: hidden;
 }
 
@@ -62,8 +62,9 @@ article p span {
   font-size: 1.2rem;
 }
 article button {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 1.5rem;
+  font-family: "Amatic SC", cursive;
+  font-size: 2rem;
+  font-weight: bolder;
   width: 20%;
   margin: 1rem;
   padding: 1rem;
